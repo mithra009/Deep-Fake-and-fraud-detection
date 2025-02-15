@@ -12,5 +12,5 @@
 2. Run the app
 
    ```
-   $ streamlit run mainp.py
+   $ streamlit run main.py
    ```
