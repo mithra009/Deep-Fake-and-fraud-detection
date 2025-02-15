@@ -1,0 +1,7 @@
+streamlit
+pillow
+opencv-python
+numpy
+pyaudio
+wave
+google-generativeai

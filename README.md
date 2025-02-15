@@ -1,2 +1,16 @@
-# Deep-Fake-and-fraud-detection
-Uses AI to classify audio as spam, fraud, or genuine. Detects deepfake images using a Vision Transformer (ViT). Extracts up to 50 frames from videos with OpenCV and classifies each using a deep learning model. Aggregates results via weighted voting to determine if a video is real or fake.
+# Power point of project
+[Power point 🌎](https://docs.google.com/presentation/d/1F-o6w6X4PGbJYCgv3H4AXapGi7NbxJUC_0_MvjWDDtw/edit?usp=sharing)
+
+### How to run it on your own machine
+
+1. Install the requirements
+
+   ```
+   $ pip install -r requirements.txt
+   ```
+
+2. Run the app
+
+   ```
+   $ streamlit run streamlit_app.py
+   ```
