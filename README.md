@@ -1,16 +1,83 @@
-# Power point of project
-[Power point 🌎](https://docs.google.com/presentation/d/1F-o6w6X4PGbJYCgv3H4AXapGi7NbxJUC_0_MvjWDDtw/edit?usp=sharing)
+# Media Analysis Toolkit: Deepfake, AI-Generated Content, and Spam Detection
 
-### How to run it on your own machine
+![Project Banner](https://via.placeholder.com/800x200.png?text=Deepfake+%26+Spam+Detection+Toolkit)
 
-1. Install the requirements
+A comprehensive multimodal detection system for analyzing various media types using state-of-the-art AI models. This toolkit helps identify:
+- 🖼️ Deepfake/AI-generated images
+- 📝 AI-generated text
+- 🎥 Deepfake videos
+- 📞 Spam/Fraudulent audio
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## Key Features
 
-2. Run the app
+### 🕵️ Multi-Modal Detection
+- **Image Analysis**  
+  - Deepfake detection (ResNet-18 model)
+  - AI-generated detection (NYUAD model)
+- **Text Verification**  
+  - Custom Desklib AI-text detector
+- **Video Authentication**  
+  - VideoMAE-based deepfake detection
+- **Audio Analysis**  
+  - Live call monitoring
+  - Spam/fraud classification using Gemini AI
 
-   ```
-   $ streamlit run main.py
-   ```
+### 🔥 Advanced Capabilities
+- Real-time audio processing
+- Multi-model consensus for images
+- Frame sampling for video analysis
+- Confidence threshold customization
+
+## Installation
+
+1. **Clone Repository**
+
+git clone https://github.com/yourusername/media-analysis-toolkit.git
+cd media-analysis-toolkit 
+
+2. **Install Requirements**
+pip install -r requirements.txt
+
+3. **API Keys Setup**
+Create .env file:
+HUGGINGFACE_TOKEN=your_hf_token
+GOOGLE_API_KEY=your_google_ai_key 
+
+4. **Usage**
+Launch Application
+streamlit run app.py
+
+
+graph TD
+    A[User Input] --> B{Media Type}
+    B -->|Image| C[ResNet-18/NYUAD Model]
+    B -->|Text| D[Desklib Text Detector]
+    B -->|Video| E[VideoMAE]
+    B -->|Audio| F[Gemini AI]
+    C --> G[Combined Result]
+    D --> G
+    E --> G
+    F --> G
+    G --> H[Output Analysis] 
+
+
+Contributing
+We welcome contributions! Please follow these steps:
+
+Fork the repository
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit changes (git commit -m 'Add amazing feature')
+
+Push to branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+
+Disclaimer
+This toolkit provides probabilistic analysis and should not be used as sole evidence for critical decisions. Always verify important findings through multiple channels.
+
+Note: Requires separate API keys for Hugging Face and Google Gemini services. Model accuracy may vary based on input quality and model training data.
+
+
