@@ -47,36 +47,18 @@ Launch Application
 streamlit run app.py
 
 
-graph TD
-    A[User Input] --> B{Media Type}
-    B -->|Image| C[ResNet-18/NYUAD Model]
-    B -->|Text| D[Desklib Text Detector]
-    B -->|Video| E[VideoMAE]
-    B -->|Audio| F[Gemini AI]
-    C --> G[Combined Result]
-    D --> G
-    E --> G
-    F --> G
-    G --> H[Output Analysis] 
-
-
-Contributing
+## Contributing
 We welcome contributions! Please follow these steps:
-
 Fork the repository
-
 Create your feature branch (git checkout -b feature/AmazingFeature)
-
 Commit changes (git commit -m 'Add amazing feature')
-
 Push to branch (git push origin feature/AmazingFeature)
-
 Open a Pull Request
 
 
-Disclaimer
+## Disclaimer
 This toolkit provides probabilistic analysis and should not be used as sole evidence for critical decisions. Always verify important findings through multiple channels.
 
-Note: Requires separate API keys for Hugging Face and Google Gemini services. Model accuracy may vary based on input quality and model training data.
+## Note: Requires separate API keys for Hugging Face and Google Gemini services. Model accuracy may vary based on input quality and model training data.
 
 
