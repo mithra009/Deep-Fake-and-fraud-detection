@@ -1,4 +1,4 @@
-You said:
+
 import streamlit as st
 from PIL import Image
 import warnings
