@@ -1,6 +1,5 @@
 # Media Analysis Toolkit: Deepfake, AI-Generated Content, and Spam Detection
 
-![Project Banner](https://via.placeholder.com/800x200.png?text=Deepfake+%26+Spam+Detection+Toolkit)
 
 A comprehensive multimodal detection system for analyzing various media types using state-of-the-art AI models. This toolkit helps identify:
 - 🖼️ Deepfake/AI-generated images
