@@ -31,7 +31,7 @@ A comprehensive multimodal detection system for analyzing various media types us
 
 1. **Clone Repository**
 
-git clone https://github.com/yourusername/media-analysis-toolkit.git
+git clone https://github.com/mithra009/Deep-Fake-and-fraud-detection
 cd media-analysis-toolkit 
 
 2. **Install Requirements**
